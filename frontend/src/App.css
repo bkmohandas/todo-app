@@ -1,0 +1,145 @@
+/* App.css */
+.app-main {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.app-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.task-input,
+.task-textarea,
+.task-date,
+.task-select {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.task-textarea {
+  min-height: 60px;
+  resize: vertical;
+}
+
+.task-button {
+  background-color: #0078d4; 
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.task-button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.task-button:hover:not(:disabled) {
+  background-color: #005a9e;
+}
+
+.task-error {
+  color: #d32f2f;
+  font-size: 13px;
+}
+
+.task-label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.task-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.task-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.task-title {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.task-description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 4px;
+}
+
+.task-due {
+  font-size: 13px;
+  color: #0078d4;
+}
+
+.task-delete {
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.task-delete:hover {
+  background-color: #f0f0f0;
+}
+
+.task-message {
+  text-align: left;
+  font-size: 14px;
+  color: #666;
+}
+
+.task-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: #333;
+}
+
+.task-list-heading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.5rem;
+  text-align: left;
+  color: #333;
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZxsQ57IC8/Y=",
+  "success": true,
+  "projectFilePath": "C:\\repos\\ezra\\backend\\src\\ToDoApp.Application\\ToDoApp.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Brijesh\\.nuget\\packages\\fluentvalidation\\12.1.0\\fluentvalidation.12.1.0.nupkg.sha512",
+    "C:\\Users\\Brijesh\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
+    "C:\\Users\\Brijesh\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}

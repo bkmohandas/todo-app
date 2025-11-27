@@ -1,0 +1,16 @@
+GET http://localhost:5000/api/tasks
+
+###
+POST http://localhost:5000/api/tasks
+Content-Type: application/json
+
+{ "title": "Read docs", "priority": 1 }
+
+###
+PUT http://localhost:5000/api/tasks/1
+Content-Type: application/json
+
+{ "title": "Read docs", "description": "MVP", "isCompleted": true, "priority": 2 }
+
+###
+DELETE http://localhost:5000/api/tasks/1
